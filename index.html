@@ -23,12 +23,8 @@
     <link rel="stylesheet" href="https:////fonts.googleapis.com/css?family=Ubuntu:300italic,300,400italic,400,500italic,500,700italic,700">
     <link href="style.css" rel="stylesheet">
 </head>
-<script>
-if (location.protocol != 'https:')
-{
- location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
-}
-</script>
+<!-- Force redirect to HTTPS -->
+<script>if(!(window.location.host.startsWith("127.0.0.1") || window.location.host.startsWith("localhost") || window.location.href.startsWith("file")) && (window.location.protocol!="https:")) window.location.protocol="https:";</script>
 <body>
     <div class="site-wrapper">
 
