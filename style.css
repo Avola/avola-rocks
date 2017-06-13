@@ -7,8 +7,9 @@
 }
 
 #logo {
-    max-width: 240px;
-    width: 240px;
+    /*max-width: 240px;
+    width: 240px;*/
+    max-height: 200px;
 }
 
 
@@ -52,6 +53,10 @@ body {
 
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
+
+.lead {
+    font-size:1rem;
+}
 
 .site-wrapper {
     display: table;
@@ -121,6 +126,7 @@ body {
 
 .cover {
     padding: 0 1.5rem;
+    margin-top: 5%;
 }
 
 .cover .btn-lg {
@@ -146,8 +152,9 @@ body {
 @media (min-width: 40em) {
 
     #logo {
-        max-width: 320px;
-        width: 320px;
+        /*max-width: 320px;
+        width: 320px;*/
+        max-height: 250px;
     }
 
     /* Pull out the header and footer */
@@ -180,6 +187,10 @@ body {
     .masthead-brand {
         float: left;
     }
+
+    .lead {
+        font-size: 1rem;
+    }
     .nav-masthead {
         float: right;
     }
@@ -194,7 +205,8 @@ body {
         width: 70%;
     }
     #logo {
-        max-width: 480px;
-        width: 480px;
+        /*max-width: 480px;
+        width: 480px;*/
+        max-height:300px;
     }
 }
